@@ -1,0 +1,158 @@
+
+/* font-size*/
+.font-size .p1{
+    font-size: 25px;
+}
+
+.font-size .p2{
+    font-size: 19px;
+}
+
+.font-size .p3{
+    font-size: 15px;
+}
+
+.font-size .px{
+    color: blue;
+}
+
+/*text-align*/
+
+.text-align .p1{
+    text-align: right
+}
+
+.text-align .p2{
+    text-align: left;
+}
+
+.text-align .p3{
+    text-align: center;
+}
+
+.text-align .p4{
+    text-align: justify;
+}
+
+.text-align .c{
+    color: brown;
+}
+
+/*line-height*/
+
+.line-height .p1{
+    line-height: 40px;
+}
+
+.line-height .p2{
+    line-height: 50px;
+}
+
+.line-height .p3{
+    line-height: 30px;
+}
+
+.line-height .b{
+    color: darkblue;
+}
+
+/*letter-spacing*/
+
+.letter-spacing .p1{
+    letter-spacing: 10px;
+}
+
+.letter-spacing .p2{
+    letter-spacing: 5px;
+}
+
+/*word-spacing*/
+
+.word-spacing .p1{
+    word-spacing: 50px;
+}
+
+.word-spacing .p2{
+    word-spacing: 20px;
+}
+
+/*text-decoration*/
+
+.text-decoration .p1{
+    text-decoration: underline dashed;
+}
+
+.text-decoration .p2{
+    text-decoration: overline double;
+}
+
+.text-decoration .p3{
+    text-decoration: line-through;
+}
+
+/*font-style*/
+
+.font-style .p1{
+    font-style: italic;
+}
+
+.font-style .p2{
+    font-style: oblique;
+}
+
+/*text-transform*/
+
+.text-transform .p2{
+    text-transform: capitalize;
+}
+
+.text-transform .p3{
+    text-transform: uppercase;
+}
+
+/*text-indent*/
+
+.text-indent .p2{
+    text-indent: 30px   ;
+}
+
+/*list*/
+
+.list ul{
+    list-style: decimal-leading-zero;
+    color: blueviolet;
+}
+
+.list ol{
+    list-style: lower-roman;
+    color: cornflowerblue;
+}
+
+/*font-family*/
+
+.font-family .p1{
+    font-family: sans-serif;
+}
+
+.font-family .p2{
+  font-family: "Baumans", system-ui;
+}
+
+.font-family .p3{
+  font-family: "Monoton", sans-serif;
+}
+
+.font-family .p4{
+      font-family: "Rubik Gemstones", system-ui;
+
+}
+
+/*font-weight*/
+
+.font-weight .p1{
+    font-weight: 650;
+}
+
+.font-weight .p2{
+    font-weight: 300;
+}

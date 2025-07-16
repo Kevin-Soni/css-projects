@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.transform{
+    margin-top: 96px;
+    
+}
+      /* scale */
+.transform .container:first-child {
+    background-color: blue;
+    
+}
+.transform .box{
+    height: 280px;
+    width: 280px;
+    background: linear-gradient(90deg,rgba(24, 204, 198, 1) 50%, rgba(66, 161, 236, 1) 50%);
+
+}
+.transform .box1,
+.transform .box2,
+.transform .box3{
+    transform-origin: top left;
+    transition-duration: 0.5s;
+    margin: 20px;
+    
+}
+
+.transform .box1:hover{
+    transform: scaleX(2);
+    height: 300px;
+    
+}
+.transform .box2:hover{
+    transform: scaleY(2);
+}
+.transform .box3:hover{
+    transform: scale(0.5);
+}
+    /* rotate */
+
+.transform.container:nth-child(2){
+    background-color: red;
+    perspective: 900px;
+    overflow: hidden;
+}
+.transform .box11,
+.transform .box12,
+.transform .box13,
+.transform .box14{
+    transition-duration: 0.5s;
+    margin: 20px;
+}
+
+.transform .box11:hover{
+    transform: rotateX(45deg);
+}
+.transform .box12:hover{
+    transform: rotateY(45deg);
+}
+.transform .box13:hover{
+    transform: rotate(45deg);
+}
+.transform .box14:hover{
+    transform: rotate3d(1,1,1,45deg);
+}
+
+      /* scew */
+
+.transform.container:nth-child(3){
+    background-color: yellow;
+    /* perspective: 900px; */
+}
+
+.transform .box21,
+.transform .box22,
+.transform .box23 {
+    transition-duration: 0.5s;
+    margin: 20px;
+    
+}
+
+.transform .box21:hover{
+    /* 0 to 1 */
+    transform: skewX(45deg);
+}
+.transform .box22:hover{
+    /* 0 to 1 */
+    transform: skewy(45deg);
+}
+.transform .box23:hover{
+    /* 0 to 1 */
+    transform: skew(0,45deg);
+}
+
+    /* translate  */
+
+.transform.container:last-child{
+    background-color: green;
+    /* perspective: 900px */
+}
+.transform .box31,
+.transform .box32,
+.transform .box33 {
+    transition-duration: 0.5s;
+    margin: 20px;
+}
+
+.transform .box31:hover{
+    transform: translateX(30px);
+}
+
+.transform .box32:hover{
+    transform: translatey(30px);
+}
+.transform .box33:hover{
+    transform: translate(-30px,30px)
+}
+
+
+

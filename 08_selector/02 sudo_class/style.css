@@ -1,0 +1,53 @@
+/* part1 */
+
+.part1{
+    margin: 100px 180px;
+}
+
+.btn{
+    color: black;
+    background-color: orange;
+    padding: 15px 30px;
+    margin: 50px;
+    border: black 2px solid;
+}
+
+.btn1:active{
+    color: red;
+    background-color: aqua;
+    
+}
+
+.btn2:focus{
+    color: crimson;
+    background-color: blue;
+}
+
+.btn3:hover{
+    color: rgb(100, 196, 196);
+    background-color: blueviolet;
+    width: 100px;
+    border-radius: 20px;
+    height: 70px;
+    
+    
+}
+
+a   {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* part 2 */
+
+.part2 ul li:first-child{
+    color: rgb(140, 10, 233);
+}
+
+.part2 ul li:last-child{
+    color: yellow;
+}
+
+.part2 ul li:nth-child(3){
+    color: blue;
+}

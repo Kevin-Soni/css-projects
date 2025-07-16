@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    text-align: center;
+
+      
+}
+
+ul li::before{
+    content: "\ea6c";
+    font-family: remixicon !important;
+
+
+}
+
+ul li::after{
+    content: "\ea60";
+        font-family: remixicon !important;
+
+    
+}
+
+.p1::first-letter{
+    font-size: 40px;
+}
+
+.p1::first-line{
+    color: blue;
+}
+
+.d1{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    position: relative;
+}
+
+.d1 .box{
+    height: 120px;
+    width: 120px;
+}
+
+.d1 .box1{
+    background-color: chartreuse;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.d1 .box2{
+    background-color: cyan;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.bfaf{
+    background-color: darkcyan;
+    height: 350px;
+    width: 350px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.bfaf::before{
+    content: "b1";
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    background-color: darkorange;
+    top: 0;
+    right: 0;
+
+}
+
+.bfaf::after{
+    content: "b2";
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    background-color: fuchsia;
+    bottom: 0;
+    left: 0;
+}

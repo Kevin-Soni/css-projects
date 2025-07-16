@@ -1,0 +1,44 @@
+/* fix */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: pink;
+
+}
+/* fix */
+img{
+    display: block;
+    width: 100%;
+}
+
+/* fix */
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* fix */
+
+.container{
+    max-width: 1140px;
+    /* max-width: 1140px; */
+    /* padding: 0 14px; */
+    margin: 0 auto;
+ 
+}
+
+header .container{
+    height: 500px;
+    background-color: gray;
+}
+
+main .container{
+    height: 800px;
+    background-color: cyan;
+}

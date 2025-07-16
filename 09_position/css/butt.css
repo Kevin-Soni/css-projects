@@ -1,0 +1,21 @@
+input{
+    height: 45px;
+    width: 200px;
+    margin: 50px;
+
+}
+
+.b1{
+    position: absolute;
+    top:65px;
+    left: 185px;
+    height: 35px;
+    width: 60px;
+    background-color: orange;
+    border: none;
+}
+
+.p1
+{
+    background-color: red;
+}

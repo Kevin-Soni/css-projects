@@ -1,0 +1,33 @@
+.k1{
+    text-align: center;
+}
+
+.k1 h2{
+    margin-bottom: 96px;
+    color: darkgreen;
+    font-size: 48px;
+    position: relative;
+    display: inline-block;    
+}
+
+.k1 h2::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    background-color: darkgreen;
+    top: 25px;
+    left: -60px;
+}
+
+.k1 h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    background-color: darkgreen;
+    top: 25px;
+    right: -60px;
+
+
+}

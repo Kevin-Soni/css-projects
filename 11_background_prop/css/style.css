@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-image: url(../images/img1.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 {
+    background-image: url(../images/img2.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box3 {
+    background: url(../images/img3.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+.box4 {
+    margin: 40px;
+    background: linear-gradient(40deg, purple, green, red, black);
+    height: 200px;
+    width: 200px;
+}
+
+.box5 {
+    margin: 40px;
+    background: radial-gradient(ellipse at top, purple, green, red, black);
+    height: 200px;
+    width: 200px;
+
+}
+
+.box6 {
+    margin: 40px;
+    background: conic-gradient(purple, green, red, black, purple);
+    height: 200px;
+    width: 200px;
+}
+
+.box7 {
+    margin: 40px;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(90deg, rgba(24, 222, 215, 0.5) 0%, rgba(66, 161, 236, 0.5) 50%), url(../images/dog1.png);
+    background-size: cover;
+    background-position: center;
+
+}
